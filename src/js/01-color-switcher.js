@@ -15,7 +15,7 @@ btnStart.addEventListener('click', () => {
 
   timerId = setInterval(() => {
     document.body.style.background = getRandomHexColor();
-  }, 1500);
+  }, 1000);
 });
 
 btnStop.addEventListener('click', () => {
